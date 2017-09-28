@@ -19,7 +19,7 @@ if [ ! -f "src/dnload.h" ] ; then
   touch src/dnload.h
 fi
 
-python "${DNLOAD}" -c -v -o src/primordial_soup src/intro.cpp src/synth.asm $*
+python "${DNLOAD}" -v -c -o src/primordial_soup src/intro.cpp src/synth.asm $*
 if [ $? -ne 0 ] ; then
   echo "${0}: compilation failed"
   exit 1
