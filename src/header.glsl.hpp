@@ -3,7 +3,7 @@ static const char *g_shader_header = ""
 "header.glsl"
 #else
 "#version 430 compatibility\n"
-"layout(location=0)uniform ivec3[6] t;"
+"layout(location=0)uniform ivec3 t[6];"
 "layout(location=8)uniform sampler3D n;"
 "vec2 m(vec2 e)"
 "{"
