@@ -20,6 +20,6 @@ static const char *g_shader_header = ""
 "return texture(n,c).r*.6+texture(n,o).r*.3+texture(n,e*o*3).r*.1;"
 "}"
 "float l=float(t[5].r)/t[5].g,b=mix(float(t[4].r),float(t[4].g),l);"
-"vec3 i=mix(vec3(t[0]),vec3(t[1]),l);"
+"vec3 a=mix(vec3(t[0]),vec3(t[1]),l);"
 #endif
 "";
