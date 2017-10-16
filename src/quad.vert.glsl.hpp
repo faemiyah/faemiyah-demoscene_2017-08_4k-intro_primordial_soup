@@ -6,8 +6,7 @@ static const char *g_shader_vert_quad = ""
 "out vec2 c;"
 "void main()"
 "{"
-"c=v*.5+.5;"
-"gl_Position=vec4(v,0,1);"
+"c=v*.5+.5,gl_Position=vec4(v,0,1);"
 "}"
 #endif
 "";
