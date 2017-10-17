@@ -3,10 +3,10 @@ CMakeCache.txt
 CMakeFiles/
 Debug/
 Makefile
-primodial_soup
-primodial_soup.dir/
+primordial_soup
+primordial_soup.dir/
 Release/
-src/primodial_soup
+src/primordial_soup
 ./*.exe
 *.bin
 *.ilk
@@ -14,6 +14,7 @@ src/primodial_soup
 *.o
 *.opensdf
 *.pdb
+*.preprocessed
 *.S
 *.sdf
 *.sln
